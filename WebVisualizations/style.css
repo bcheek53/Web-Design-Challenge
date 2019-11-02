@@ -1,0 +1,39 @@
+
+.margin-top-80 {
+  margin-top: 80px;
+}
+
+.font {
+    font-family: "Georgia";
+}
+
+
+.teal {
+  background: teal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #008B8B;
+  padding: 20px;
+ }
+
+a {
+  color: white;
+}
+
+p {
+  text-indent: 2.0em;
+  }
+
+body {
+    background: lightgray !important; 
+  } 
+  
+.border {
+  border-width: 3px !important;
+}
+
+.white {
+  background: white;
+  padding: 10px;
+}

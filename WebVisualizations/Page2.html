@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Latitude</title>
+
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+ <style type="text/css">
+    body { background: lightgray !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+
+    p {
+    text-indent: 2.0em;
+    }
+
+</style>
+
+</head>
+
+<body>
+<!-- background color -->
+
+<div class="font">
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="teal alert" role="alert">
+          <a class= "text-center" class="navbar-brand" href="Cities-HTML.html"><b>Latitude</b><span class="sr-only">(current)</span></a>
+        </div>
+      
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown active">
+                  <a class="nav-link dropdown-toggle" href=# id="navbarDropdownMenuLink" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Plots
+                  </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="Page1.html">Max Temperature</a>
+                          <a class="dropdown-item" href="Page2.html">Humidity</a>
+                          <a class="dropdown-item" href="Page3.html">Cloudiness</a>
+                          <a class="dropdown-item" href="Page4.html">Wind Speed</a>
+                      </div> 
+                </il>         
+          <li class="nav-item">
+            <a class="nav-link" href="Comparison.html">Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="citiesDF.html">Data</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+<div class="container">
+
+<!-- First Row -->
+<div class="row">
+    <div class="row mt-3">
+    <div class="col-md-8">
+        <div class="white">
+        <h2 class="text-left"><b>Humidity</b></h2>
+        <hr/>
+        <div class="text-center">
+        <img src="Images/Fig2.png" width="450" height="400">
+        </div>
+        <p>The humidity levels don’t appear to have a strong relationship to latitude as the scatter plot indicates.  There is a slight dome shape which may warrant more analysis comparing humidity and latitude.</p>
+        </div>
+    </div>
+    
+    <div class="col-md-4">
+        <div class="white">
+        <h4 class="text-center">
+        <b>Visualizations</b>
+        <hr/>
+        </h4>
+        <div class="col-md-12">
+            <a href=Page1.html><img src="Images/Fig1.png" width="150" height="130"></a>
+            <a href=Page2.html><img src="Images/Fig2.png" class="border border-info" width="150" height="130"></a>
+            <a href=Page3.html><img src="Images/Fig3.png" width="150" height="130"></a>
+            <a href=Page4.html><img src="Images/Fig4.png" width="150" height="130"></a>
+        </div>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+
+</div>
+
+</body>
+</html>
